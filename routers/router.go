@@ -23,4 +23,5 @@ func init() {
 	beego.Router("/ws/join", &controllers.WebSocketController{}, "get:Join")
 
 	/*什么鬼o*/
+	//	??
 }
