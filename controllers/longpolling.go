@@ -20,6 +20,8 @@ func (this *LongPollingController) Join() {
 	this.TplName = "longpolling.html"
 	this.Data["IsLongPolling"] = true
 	this.Data["UserName"] = uname
+
+	//	？？？
 }
 
 func (this *LongPollingController) Post() {
