@@ -1,4 +1,4 @@
-module MyWebIM
+module mywebim
 
 go 1.15
 
