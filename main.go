@@ -16,5 +16,8 @@ func main() {
 	/*注册模板函数 国际化*/
 	beego.AddFuncMap("i18n", i18n.Tr)
 
+	// 开启热升级
+	beego.BConfig.Listen.Graceful = true
+
 	beego.Run()
 }
