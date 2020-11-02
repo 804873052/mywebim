@@ -19,7 +19,7 @@ func main() {
 	// 开启热升级
 	beego.BConfig.Listen.Graceful = true
 
-	//测试 161
+	//测试 161 3
 
 	beego.Run()
 }
